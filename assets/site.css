@@ -202,3 +202,6 @@ h1{font-size:clamp(36px,4.6vw,64px);line-height:1.08}
   .shop-ph{transform:none}
 }
 @media (max-width:380px){.logo-t{display:none}.btn{white-space:normal;text-align:center}.pr li{flex-wrap:wrap}}
+
+/* кнопка «Показать ещё отзывы» и другие скрытые элементы прячутся по-настоящему */
+[hidden]{display:none!important}
